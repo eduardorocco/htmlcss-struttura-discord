@@ -64,3 +64,30 @@ img {
 .main-header{
     background-color: aquamarine;
 }
+
+
+
+
+
+/* DEBUG RULES */
+.debug .container {
+	border: 2px solid black;
+}
+
+.debug .row {
+	border: 2px solid red;
+	padding: 16px;
+}
+
+.debug .row > * {
+	border: 2px solid cornflowerblue;
+	padding: 16px;
+}
+
+.layout-2 img {
+	aspect-ratio: 1 / 1.5;
+}
+
+.layout-2 .row {
+	align-items: center;
+}
