@@ -31,6 +31,12 @@ img {
     min-height: 300px;
 }
 
+.section {
+    min-height: 350px;
+    border: solid 1px;
+    display: flex;
+}
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
@@ -46,10 +52,12 @@ img {
 
 .col-33 {
 	width: calc(100% / 3);
+    background-color: pink;
 }
 
 .col-66 {
 	width: calc(2 * (100% / 3));
+    background-color: cyan;
 }
 
 .col-100 {
@@ -87,34 +95,34 @@ img {
 }
 
 /* HERO */
-
 .hero{
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: blue;
 }
 
-.row {
-    border: solid 1px;
-    width: 400px;
-    height: 200px;
+.hero-image {
     background-color: pink;
 }
 
+/* FIRST SECTION */
+.first {
+    display: flex;
+    align-items: center;
+}
 
-
-
-/* DEBUG RULES 
-.debug .container {
+/* DEBUG RULES */ 
+.container {
 	border: 2px solid black;
 }
 
-.debug .row {
+.row {
 	border: 2px solid red;
 	padding: 16px;
 }
 
-.debug .row > * {
+.row > * {
 	border: 2px solid cornflowerblue;
 	padding: 16px;
 }
