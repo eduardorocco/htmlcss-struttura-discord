@@ -33,7 +33,6 @@ img {
 
 .section {
     min-height: 350px;
-    border: solid 1px;
     display: flex;
 }
 
@@ -116,7 +115,7 @@ img {
     background-color: grey;
 }
 
-/* DEBUG RULES */ 
+/* DEBUG RULES */
 .container {
 	border: 2px solid black;
 }
