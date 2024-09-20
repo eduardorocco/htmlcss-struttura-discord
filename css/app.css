@@ -24,7 +24,7 @@ img {
 .container {
 	max-width: 900px;
 	margin: 0 auto;
-	padding: 0 2rem;
+	padding: 0 100px;
 }
 
 .row {
@@ -63,9 +63,24 @@ img {
 /* HEADER */
 .main-header{
     background-color: aquamarine;
+    border: solid 1px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
+.navbar {
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+    border: solid 1px;
+    background-color: yellow;
+}
 
+.main-menu {
+    display: flex;
+    gap: 20px;
+    border: solid 1px;
+}
 
 
 
