@@ -59,3 +59,8 @@ img {
 .col-20 {
 	width: 20%;
 }
+
+/* HEADER */
+.main-header{
+    background-color: aquamarine;
+}
