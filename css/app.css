@@ -31,6 +31,9 @@ img {
     min-height: 300px;
 }
 
+.big-image-section {
+    min-height: 600px;
+}
 .section {
     min-height: 350px;
     display: flex;
@@ -115,6 +118,18 @@ img {
     background-color: grey;
 }
 
+/* CENTRAL SECTION */
+.central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.central-image {
+    background-color: rgb(22, 160, 17);
+}
+
 /* DEBUG RULES */
 .container {
 	border: 2px solid black;
@@ -136,4 +151,4 @@ img {
 
 .layout-2 .row {
 	align-items: center;
-} */
+}
