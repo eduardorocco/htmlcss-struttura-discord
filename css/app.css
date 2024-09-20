@@ -107,9 +107,13 @@ img {
 }
 
 /* FIRST SECTION */
-.first {
+.layout-columns {
     display: flex;
     align-items: center;
+}
+
+.bg-grey {
+    background-color: grey;
 }
 
 /* DEBUG RULES */ 
