@@ -32,6 +32,7 @@ img {
 
 .big-image-section {
     min-height: 600px;
+    min-width: auto;
 }
 .section {
     min-height: 350px;
@@ -57,17 +58,14 @@ img {
 
 .col-66 {
 	width: calc(2 * (100% / 3));
-    background-color: cyan;
 }
 
 .col-32 {
 	width: calc(2 * (100% / 6));
-    background-color: rgb(212, 0, 255);
 }
 
 .col-16 {
 	width: calc(100% / 6);
-    background-color: rgb(0, 102, 255);
 }
 
 .p-10 {
@@ -85,7 +83,7 @@ img {
 	align-items: center;
 	justify-content: space-between;
     border: solid 1px;
-    background-color: yellow;
+   
 }
 
 .main-menu {
@@ -112,11 +110,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
-}
 
-.central-image {
-    background-color: rgb(22, 160, 17);
 }
 
 /* FOOTER */
@@ -124,7 +118,6 @@ img {
     display: flex;
     align-content: center;
     justify-content: space-between;
-    background-color: rgb(49, 102, 91);
 }
 
 /* DEBUG RULES */
@@ -165,6 +158,18 @@ img {
 
 .bg-black {
     background-color: rgb(34, 34, 34);
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-green {
+    background-color: rgb(22, 160, 17);
+}
+
+.bg-magenta {
+    background-color: rgb(212, 0, 255);
 }
 
 /* DEBUG WIDTHS HEIGHTS */
